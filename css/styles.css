@@ -41,7 +41,7 @@ header {
     padding: 0 15px;
 }
 .nav-list, .address-list {
-    display: inline-flex;
+    display: flex;
     gap: 40px;
 } 
 
@@ -235,12 +235,10 @@ header {
 }
 .box-portfolio-list {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
+    flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    flex-wrap: wrap;
 }
 .list-portfolio-item {
     width: calc((100%-48px)/3);
