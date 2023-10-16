@@ -21,20 +21,24 @@
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="header">
       <div class="container">
         <nav class="navigation">
           <a class="logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
           <ul class="nav-list">
-            <li><a class="nav-item" href="./index.html">Studio</a></li>
-            <li><a class="nav-item" href="">Portfolio</a></li>
-            <li><a class="nav-item" href="">Contacts</a></li>
+            <li class="nav-list-item"><a class="nav-item" href="./index.html">Studio</a></li>
+            <li class="nav-list-item"><a class="nav-item" href="">Portfolio</a></li>
+            <li class="nav-list-item"><a class="nav-item" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address-contact">
           <ul class="address-list">
-            <li><a class="address-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="address-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li class="address-list-item">
+              <a class="address-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-list-item">
+              <a class="address-item" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
           </ul>
         </address>
       </div>
@@ -46,16 +50,14 @@
       <section class="section-hero">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <div class="button-box">
-            <button class="button-hero" type="button">Order Service</button>
-          </div>
+          <button class="button-hero" type="button">Order Service</button>
         </div>
       </section>
 
       <!--Section Benefits-->
       <section class="section section-benefits">
         <div class="container">
-          <h2 class="section-title">About us</h2>
+          <h2 class="visually-hidden section-title">About us</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
               <h3 class="benefits-title">Strategy</h3>
@@ -102,8 +104,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name-list">Mark Guerrero</h3>
-              <p class="team-profession">Product Designer</p>
+              <div class="team-describle">
+                <h3 class="team-name-list">Mark Guerrero</h3>
+                <p class="team-profession">Product Designer</p>
+              </div>
             </li>
 
             <li class="team-item">
@@ -113,8 +117,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name-list">Tom Ford</h3>
-              <p class="team-profession">Frontend Developer</p>
+              <div class="team-describle">
+                <h3 class="team-name-list">Tom Ford</h3>
+                <p class="team-profession">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="team-item">
@@ -124,14 +130,18 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name-list">Camila Garcia</h3>
-              <p class="team-profession">Marketing</p>
+              <div class="team-describle">
+                <h3 class="team-name-list">Camila Garcia</h3>
+                <p class="team-profession">Marketing</p>
+              </div>
             </li>
 
             <li class="team-item">
               <img src="./images/ui.jpg" alt="Daniel Wilson UI Designer" width="264" height="260" />
-              <h3 class="team-name-list">Daniel Wilson</h3>
-              <p class="team-profession">UI Designer</p>
+              <div class="team-describle">
+                <h3 class="team-name-list">Daniel Wilson</h3>
+                <p class="team-profession">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -149,8 +159,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-item">Banking App</h3>
-              <p class="portfolio-type">App</p>
+              <div class="portfolio-describle">
+                <h3 class="portfolio-item">Banking App</h3>
+                <p class="portfolio-type">App</p>
+              </div>
             </li>
             <li class="list-portfolio">
               <img
@@ -159,8 +171,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-item">Cashless Payment</h3>
-              <p class="portfolio-type">Marketing</p>
+              <div class="portfolio-describle">
+                <h3 class="portfolio-item">Cashless Payment</h3>
+                <p class="portfolio-type">Marketing</p>
+              </div>
             </li>
             <li class="list-portfolio">
               <img
@@ -169,8 +183,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-item">Meditation App</h3>
-              <p class="portfolio-type">App</p>
+              <div class="portfolio-describle">
+                <h3 class="portfolio-item">Meditation App</h3>
+                <p class="portfolio-type">App</p>
+              </div>
             </li>
             <li class="list-portfolio">
               <img
@@ -179,8 +195,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-item">Taxi Service</h3>
-              <p class="portfolio-type">Marketing</p>
+              <div class="portfolio-describle">
+                <h3 class="portfolio-item">Taxi Service</h3>
+                <p class="portfolio-type">Marketing</p>
+              </div>
             </li>
             <li class="list-portfolio">
               <img
@@ -189,8 +207,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-item">Screen Illustrations</h3>
-              <p class="portfolio-type">Design</p>
+              <div class="portfolio-describle">
+                <h3 class="portfolio-item">Screen Illustrations</h3>
+                <p class="portfolio-type">Design</p>
+              </div>
             </li>
             <li class="list-portfolio">
               <img
@@ -199,8 +219,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-item">Online Courses</h3>
-              <p class="portfolio-type">Marketing</p>
+              <div class="portfolio-describle">
+                <h3 class="portfolio-item">Online Courses</h3>
+                <p class="portfolio-type">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
