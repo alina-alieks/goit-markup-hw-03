@@ -44,11 +44,10 @@ header .container {
     flex-direction: row;
     justify-content: space-between;
 }
-.nav-list, .address-list .logo {
+.nav-list, .address-list {
     display: flex;
     flex-direction: row;
     gap: 40px;    
-    padding: 24px 0;   
 } 
 .navigation {
     display: flex;
@@ -86,10 +85,12 @@ header .container {
     font-style: normal;
 }
 .address-item {
+    display: inline-flex;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .address-item:hover,
 .address-item:focus {
